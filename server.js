@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://task-tracker-frontend-orpin.vercel.app"
+    "https://task-tracker-frontend-lilac.vercel.app/login"
   ],
    // only allow this frontend
   credentials: true
